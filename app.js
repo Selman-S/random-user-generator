@@ -21,7 +21,7 @@ button.addEventListener("click", () => {
    
     let location = data.results[0].location.country;
     let { email, phone } = data.results[0];
-    let image = data.results[0].picture.medium;
+    let image = data.results[0].picture.large;
     innerContainer.innerHTML =` <img class="image" src="${image}" alt="" />
     <p>
       <i class="fa-solid fa-user"></i> Name :

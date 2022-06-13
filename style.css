@@ -5,10 +5,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: roboto,serif;
   height: 100vh;
+  letter-spacing:2px;
   overflow: hidden;
   width: 100%;
-  background-image: linear-gradient(135deg, #2d283e, #4c495d);
+  background-image: linear-gradient(135deg, #fc99ff, #ffffff);
 }
 h1 {
   color: white;
@@ -37,7 +39,7 @@ p {
   border-bottom: 1px solid black;
   padding: 0.5rem;
   margin: 0.5rem;
-  color: #59253b;
+  color: #000000;
   font-weight: 600;
 }
 .button {
@@ -49,16 +51,17 @@ p {
   background-color: transparent;
   max-width: 100%;
   width: 20rem;
+  font-size: 1.1rem;
   border-radius: 5px;
   padding: 0.7rem;
   margin: 0.5rem auto;
-  border: 2px solid orangered;
-  color: orangered;
+  border: 2px solid rgb(56, 56, 56);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .btn:hover {
   transform: scale(0.98);
-  background-color: #dfd0f6;
+  background-color: #b3b3b3;
 }
 .fa-solid {
   padding: 0.2rem;
